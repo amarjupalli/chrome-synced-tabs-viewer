@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Synced Tabs Viewer",
+  "version": "1.0",
+  "permissions": ["sessions", "tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  }
+}
