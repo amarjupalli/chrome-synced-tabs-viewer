@@ -28,6 +28,7 @@ function fetchAndStoreSyncedTabs() {
 
 chrome.action.onClicked.addListener(() => {
   fetchAndStoreSyncedTabs();
+  chrome.tabs.create({ url: "page.html" });
 });
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
