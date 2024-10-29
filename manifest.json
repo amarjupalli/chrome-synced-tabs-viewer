@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Synced Tabs Viewer",
   "version": "1.0",
-  "permissions": ["sessions", "tabs", "storage"],
+  "permissions": ["sessions", "tabs", "storage", "bookmarks"],
   "background": {
     "service_worker": "background.js"
   },
